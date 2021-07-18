@@ -1,4 +1,4 @@
-before=input("シーザー暗号にしたい文を入力してください。:")
+before=input("Enter the sentence you want to make into a Caesar cipher:")
 before_num=len(before)
 
 
@@ -11,7 +11,7 @@ for i in range(before_num):
     after.append(before[i])
     
  
-base=input("いくつ文字をずらしますか？:")
+base=input("How many letters do you want to shift?:")
 
 for c in after:
     
