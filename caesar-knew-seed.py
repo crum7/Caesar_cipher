@@ -1,4 +1,4 @@
-before=input("シーザー暗号を入力してください。:")
+before=input("Enter the Caesar cipher.:")
 before_num=len(before)
 
 
@@ -11,7 +11,7 @@ for i in range(before_num):
     after.append(before[i])
     
  
-base=input("入力した文字の最初の文字を、どのアルファベットにしますか？:")
+base=input("Which alphabet should be the first letter of the text you enter?:")
 base=ord(base)
 original=ord(after[0])
 result=original-base
