@@ -1,4 +1,4 @@
-before=input("シーザー暗号を入力してください。:")
+before=input("Enter the Caesar cipher:")
 before_num=len(before)
 
 
