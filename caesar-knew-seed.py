@@ -1,4 +1,4 @@
-before=input("Enter the Caesar cipher.:")
+before=input("Enter the Caesar cipher:")
 before_num=len(before)
 
 
